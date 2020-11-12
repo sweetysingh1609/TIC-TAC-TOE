@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+
+  <body onload="startGame();">
+    <div class="flex">
+      <center><h1 class="header">&#128540;Tic Tac Toe GAME &#128540;</h1></center>
+    </div>
+
+    <center><div id="message">message of whose turn will go here</div></center>
+
+    <div class="container" style="background-color: rgb(22, 180, 83)">
+      <div class="cell" id="cell1" onclick="nextMove(this.id)"></div>
+      <div class="cell" id="cell2" onclick="nextMove(this.id)"></div>
+      <div class="cell" id="cell3" onclick="nextMove(this.id)"></div>
+      <div class="cell" id="cell4" onclick="nextMove(this.id)"></div>
+      <div class="cell" id="cell5" onclick="nextMove(this.id)"></div>
+      <div class="cell" id="cell6" onclick="nextMove(this.id)"></div>
+      <div class="cell" id="cell7" onclick="nextMove(this.id)"></div>
+      <div class="cell" id="cell8" onclick="nextMove(this.id)"></div>
+      <div class="cell" id="cell9" onclick="nextMove(this.id)"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
